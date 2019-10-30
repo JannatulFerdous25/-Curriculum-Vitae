@@ -1,0 +1,30 @@
+.navbar {
+  background: #292b2c;
+  opacity: 0.9; }
+
+body {
+  background: #333;
+  color: #fff; }
+
+#home {
+  background: url("../img/create.jpeg") no-repeat center top;
+  background-size: cover;
+  min-height: 600px;
+  background-attachment: fixed; }
+  #home .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 600px; }
+  #home .home-inner {
+    padding-top: 250px;
+    padding-bottom: 30px; }
+
+.image {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+
+.aboutme {
+  padding-top: 140px;
+  padding-bottom: 100px;
+  background: #30397A;
+  padding-left: 70px;
+  margin-top: 130px; }

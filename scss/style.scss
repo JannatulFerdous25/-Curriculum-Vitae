@@ -1,0 +1,41 @@
+$primary-color: #30397A;
+$body-bg: #333;
+$font-bg: #fff;
+
+.navbar{
+  background: #292b2c;
+  opacity: 0.9;
+
+}
+body{
+background: $body-bg;
+color: $font-bg;
+}
+#home{
+  background: url('../img/create.jpeg') no-repeat center top;
+  background-size: cover;
+  min-height: 600px;
+  background-attachment: fixed;
+
+  .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    min-height: 600px;
+  }
+
+  .home-inner{
+    padding-top: 250px;
+    padding-bottom: 30px;
+  }
+}
+
+.image{
+  padding-top: 50px;
+  padding-bottom:100px;
+}
+.aboutme{
+  padding-top: 140px;
+  padding-bottom:100px;
+  background: $primary-color;
+  padding-left: 70px;
+  margin-top:130px;
+}
